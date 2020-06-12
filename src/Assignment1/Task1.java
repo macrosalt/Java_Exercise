@@ -2,6 +2,7 @@ package Assignment1;
 
 class ABC {
     int a = 200;
+    ABC next = null;
     public ABC() {
         System.out.println("Default instance");
     }
@@ -11,11 +12,11 @@ class ABC {
     }
 
     public ABC(int x, int y) {
-        System.out.println("With two parameter: X" + x + " Y " + y);
+        System.out.println("With two parameter: X " + x + " Y " + y);
     }
 
     public ABC(int x, int y, int z) {
-        System.out.println("With two parameter: X " + x + " Y " + y + " Z " + z);
+        System.out.println("With three parameter: X " + x + " Y " + y + " Z " + z);
     }
 }
 
