@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="org.example.Emp" table="emp">
+        <id name="id" column="id"></id>
+        <property name="name" column="emp_name"></property>
+        <map name="address" cascade="all">
+            <key column="id"></key>
+            <index column="add_type" type="java.lang.String"></index>
+            <one-to-many class="org.example.Address"/>
+        </map>
+    </class>
+    <class name="org.example.Address" table="address">
+        <id name="place_id" column="pid"></id>
+        <property name="city" column="city"></property>
+    </class>
+</hibernate-mapping>
