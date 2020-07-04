@@ -17,7 +17,7 @@
         <br>
         <br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><font color="#FFFFFF" size="+2" face="Georgia, Times New Roman, Times, serif"> 
-        Online Fraud Detection in E-Shopping <br>
+        Hospital Management <br>
         </font></strong></div>
     </div>
     <!-- /header -->
@@ -38,7 +38,8 @@
         <!-- <div id="sellerpic">
         </div>-->
         <!-- /jakepic -->
-        <div id="text"> </div>
+        <div id="text"></a><a href="inpatient_signup.jsp"><font color="#FF0000" size="+1">Insert<strong>
+        </strong></font></a></div>
         <!-- /text -->
         <table height="350" align="center" width="700">
           <tr bgcolor="#CC3300"> 
@@ -58,6 +59,7 @@
                     <td align="center"><font color="#110022"><strong>Email Id</strong></font></td>
                     <td align="center"><font color="#110022"><strong>Date</strong></font></td>
                     <td align="center"><font color="#110022"><strong>Status</strong></font></td>
+                      <td align="center"><font color="#110022"><strong>Operation</strong></font></td>
                   </tr>
                   <%
 			
@@ -106,7 +108,9 @@ try
                       </font></strong></td>
                     <td align="center"><strong><font color="#6300C6"> <%=sta%> 
                       </font></strong></td>
-                    
+                      <td align="center"><a href="edit_patient.jsp?<%=cid%>"><font color="#FF0000" size="+1">Edit<strong>
+                      </strong></font></a><a href="delete_patient.jsp?<%=cid%>"><font color="#FF0000" size="+1">Delete<strong>
+                      </strong></font></a></td>
                   </tr>
                   <%	  
 }

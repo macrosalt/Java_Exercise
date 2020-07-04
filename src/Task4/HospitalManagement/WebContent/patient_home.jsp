@@ -140,7 +140,7 @@
                 }
               %>
               <tr bgcolor="#FFFFCC">
-                <td align="center" bgcolor="#E4E4F1"> <strong><font> Unpaid Total
+                <td align="center" bgcolor="#E4E4F1"> <strong><font> Paid Total
                 </font></strong></td>
                 <td align="center"><strong><font color="#6300C6"> <%=cost%>
                 </font></strong></td>
