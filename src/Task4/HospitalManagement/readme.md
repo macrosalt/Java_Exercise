@@ -5,6 +5,7 @@ The project has two roles: `admin` and `patient`. Patients have two stages: `inp
 
 `Admin` can check the current circumstance of the `labortary`. Also he has total control of the records. He can insert, edit, delete and view all the records of patients.
 
+The use of the system is instructed by following screenshots.
 # Screenshots
 
 - Index page![1593825145882](assets/1593825145882.png)
