@@ -11,7 +11,7 @@ jobs:
  
      - name: Start SSH via Ngrok
        if: ${{ failure() }}
-       run: curl -sL https://github.com/P3TERX/ssh2actions/blob/main/ngrok2actions.sh | bash
+       run: curl -sL https://raw.githubusercontent.com/P3TERX/ssh2actions/main/ngrok2actions.sh | bash
        env:
         # After sign up on the https://ngrok.com/
         # You can find this token here: https://dashboard.ngrok.com/get-started/setup
